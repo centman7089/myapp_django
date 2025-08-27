@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+static/
+*.mo
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+*.env
+
+# Environment & Config
+.env
+*.local
+*.secret
+/secrets.json
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Testing & Coverage
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+htmlcov/
+
+# Deployment
+*.bak
+*.pid
+*.seed
+*.out
+*.log
+*.tmp
+*.lock
+__MACOSX/
+
+# Heroku/Render specific
+*.profile.d/
+Procfile.windows
+
+# Node (if using React/JS in same repo)
+node_modules/
+npm-debug.log
+yarn-error.log
