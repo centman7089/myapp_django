@@ -39,7 +39,7 @@ SECRET_KEY = env("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 
 
-ALLOWED_HOSTS = env.list("ALLOWED_HOSTS", default=["myapp-django.onrender.com","localhost", "127.0.0.1"])
+ALLOWED_HOSTS = env.list("ALLOWED_HOSTS", default=["myapp-7hw5.onrender.com","localhost", "127.0.0.1"])
 
 
 
